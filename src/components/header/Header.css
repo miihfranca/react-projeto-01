@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+}
+
+img{
+    width: 250px;
+    height: 70px;
+}
+
+.nav{
+    display: flex;
+}
+
+a{
+    color: rgb(28, 163, 190);
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+@media (max-width: 691px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+}
